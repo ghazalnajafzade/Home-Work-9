@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./index.js"></script>
+    <title>دیوار تهران</title>
+  </head>
+  <body>
+    <div class="wrapper  text-gray-400" dir="rtl">
+         <!-- ----------header xl ---------- -->
+         <header class="max-xl:hidden w-screen h-[64px] Border border-b-2">
+          <div class="max-w-screen-2xl m-auto h-[57px] flex px-4">
+
+            <!-- ------header xl > section right ----- -->
+            <div class="w-[350px] h-full ">
+               <!-- -----divar----- -->
+              <div class="flex gap-4 items-center">
+                <a href="#"><img src="./img/android-chrome-512x512.png" width="52px" height="52px" alt=""></a>
+                <!-- -----line----- -->
+                <span class="w-[2px] h-6 bg-gray-200"></span>
+                <!-- -----locaition----- -->
+                <div class="flex items-center gap-3">
+                  <img src="./img/icon/location (1).svg" alt="">
+                  <sopan>تهران</span>
+                </div>
+                <!-- -----categoti----- -->
+                <div class="flex items-center gap-3 mr-10">
+                  <span>دسته‌ها</span>
+                  <img src="./img/icon/down-fill.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- ------header xl > section left ------- -->
+            <div class="w-full h-full flex items-center justify-between pr-2">
+              <!-- ---1--- -->
+              <div class="relative w-full max-w-[500px] ">
+              <input type="text" class="bg-gray-100 h-[38px] relative placeholder:pr-9 w-full rounded" placeholder="جستجو در همهٔ آگهی‌ها" >
+              <img src="./img/icon/search.svg" class="absolute top-2 right-2" alt="">
+            </div>
+             <!-- ---2--- -->
+              <div class="w-[370px] flex justify-between items-center">
+                <!-- ---------- -->
+                <div class="flex gap-2 items-center">
+                  <img src="./img/icon/person-outline.svg" width="20px" alt="">
+                  <span> دیوار من </span>
+                </div>
+                <!-- --------- -->
+                <div class="flex gap-2 items-center">
+                  <img src="./img/icon/chat-fill.svg" alt="">
+                  <span> چت  </span>
+                </div>
+                <!-- --------- -->
+                <span> پشتیبانی </span>
+                <!-- --------- -->
+                <button class="bg-[#a62626] text-white text-sm px-4 py-[10px] rounded"> ثبت آگهی </button>
+              </div>
+            </div>
+          </div>
+         </header>
+         <!-- -------------------|header xl| ------------------- -->
+         <div class="max-xl:hidden max-w-screen-2xl h-6 mt-4 mb-[-20px] flex justify-between text-xs p-4 mx-auto">
+          <span>دسته ها</span>
+          <div class="">دیوار تهران - نیازمندی‌ های رایگان، آگهی‌های خرید، فروش نو و دست دوم و کارکرده، استخدام و خدمات</div>
+         </div>
+
+
+      <div class="container h-screen max-w-screen-2xl m-auto  ">
+        <!-- ---------- header search ---------- -->
+        <header class="fixed top-0 left-0 bg-white right-0 z-50 xl:hidden">
+          <div class="nav h-16 py-2 border-solid border-b-2 border-gray-100">
+            <div
+              class="serach rounded-md bg-[#F5F5F5] grid items-center grid-cols-[1fr_2px_50px] gap-3 p-1 mx-3"
+            >
+              <!-- ---------- input ---------- -->
+            
+                <!-- ---1--- -->
+                <div class="relative w-full ">
+                <input type="text" class="outline-none bg-gray-100  h-10 pr-4 pl-10 w-full bg-inherit relative " placeholder="جستجو در همهٔ آگهی‌ها" >
+                <img src="./img/icon/search.svg" class="absolute top-2 right-2" alt="">
+              </div>
+       
+              <div class="w-[1px] h-6 bg-slate-500"></div>
+              <div class="location Flex-x h-10">
+                <div class="location-name text-gray-500">تهران</div>
+                <img
+                  src="./img/location.svg"
+                  alt=""
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- ---------- main ---------- -->
+        <main class="px-4 my-[110px] max-xl:block xl:my-10 flex gap-7">
+
+          <!-- ---------- main header --------- -->
+          <header class=" xl:hidden ">
+            <div
+              class="overflow-auto no-scrollbar h-12 Flex-x justify-start border-solid border-b-2 border-gray-100 fixed top-[64px] left-0 right-0 bg-white z-50"
+            >
+              <!-- ---------- categori ---------- -->
+              <ul class="flex gap-4 whitespace-nowrap mx-4" >
+                <li class="categori pl-5">
+                  <img src="./img/filter.svg" alt="" />
+                  فیلترها
+                </li>
+                <!-- --1-- -->
+                <li class="categori pl-6">
+                  <img src="./img/collapse-categories (1).svg" alt="" />
+                  دسته ها
+                </li>
+                <!-- ---2--- -->
+                <li class="categori">
+                  خودرو سواری
+                </li>
+                <!-- ---3--- -->
+                <li class="categori">
+                 فروش آپارتمان
+                </li>
+                <!-- ---4--- -->
+                <li class="categori">
+                 موبایل
+                </li>
+                <li class="categori">
+                 حیوانات
+                </li>
+                <!-- ---------- ||categori|| ---------- -->
+              </ul>
+            </div>
+          </header>
+          <!-- ---------- ||main header ||--------- -->
+          <h1 class="py-5 text-gray-400 text-sm xl:hidden">
+            دیوار تهران:‌ انواع آگهی‌ها و خدمات در تهران
+          </h1>
+          
+          <!-- --------------- aside ---------------- -->
+          <aside class="aside max-xl:hidden xl:h-screen  w-[330px]   flex flex-col gap-3 whitespace-nowrap overflow-auto no-scrollbar">
+
+            <!-- ----------- aside categori ---------- -->
+            <div class="asid-categori flex flex-col gap-3">
+              <div class="h-[28px]  items-center p-y-[6px] bg-amber-400  text-sm gap-2 hidden">
+                <img src="./img/icon/home-outline.svg" alt="">
+                <span>
+                  املاک
+                </span>
+              </div>
+            </div>
+
+          <!-- ---------- filter-field ---------- -->
+          <div class="filter">
+          <div class="filter-field Border border-t-2">
+            <img src="./img/icon/down-fill.svg" alt="">
+            <span class="text-black">محل</span>
+          </div>
+          <div class="filter-field">
+            <img src="./img/icon/down-fill.svg" alt="">
+            <span class="text-black">قیمت</span>
+          </div>
+          <div class="filter-field">
+            <img src="./img/icon/down-fill.svg" alt="">
+            <span class="text-black">وضعیت آگهی</span>
+          </div>
+        </div>
+
+        <!-- ----------- aside footer --------- -->
+        <footer class="">
+          <!-- ----------- section 1--------- -->
+          <div class="text-xs flex flex-wrap gap-4 ">
+            <span> دربارهٔ دیوار </span>
+            <span> دریافت برنامه </span>
+            <span> بلاگ دیوار </span>
+            <span> کسب‌وکارها </span>
+            <span>پشتیبانی و قوانین</span>
+          </div>
+          <!-- ----------- section 2--------- -->
+          <div class="flex justify-evenly mt-4">
+            <img src="./img/icon/twitter.svg" alt="">
+            <img src="./img/icon/instagram-solid.svg" alt="">
+            <img src="./img/icon/linkedin.svg" alt="">
+            <img src="./img/icon/aparat.svg" alt="">
+          </div>
+          <!-- ----------- section 3--------- -->
+          <div class="Flex-x mt-8">
+            <img src="./img/icon/asid-footer-section-3/3.jpeg" alt="">
+            <img src="./img/icon/asid-footer-section-3/2.png" alt="">
+            <img src="./img/icon/asid-footer-section-3/1.png" alt="">
+          </div>
+
+        </footer>
+
+        </aside>
+          <!-- -------------|aside|------------- -->
+
+          <div class="main-advertising max-[720px]:flex flex-col gap-4 pb-16 ">
+         
+            
+            <!-- ---------- advertising ---------- -->
+
+            <div class="advertising hidden">
+              <div class="content">
+                <h2 class="font-medium">${item.Title}</h2>
+                <div class="details">
+                  <span>${item.detail[0]} </span>
+                  <span>${item.detail[1]} </span>
+                  <span> ${item.detail[2]} </span>
+                </div>
+              </div>
+              <div class="img relative">
+                <img
+                  src="./img/chat.svg"
+                  class="absolute bottom-[4px] right-[-20px]"
+                  alt=""
+                />
+                <img
+                  width="136"
+                  height="136"
+                  alt=""
+                  class="rounded-md "
+                />
+              </div>
+            </div>
+             
+          <!-- ---------- ||main-advertising|| ---------- -->
+          </div>
+         </main>
+        <!-- ---------- footer ---------- -->
+        <footer class="footer z-50 xl:hidden">
+          <nav
+            class="flex justify-between fixed bottom-0 right-0 w-full border-solid border-t-2 border-gray-200 bg-[#F5F5F5]"
+          >
+            <!-- ---------- آگهی‌ها ----------- -->
+            <div class="nav-footer ">
+              <img src="./img/icon/1693297044665.png" width="24" alt="" />
+              <span class="text-red-600"> آگهی‌ها </span>
+            </div>
+            <!-- ---------- دسته‌ها ---------- -->
+            <div class="nav-footer">
+              <img
+                src="./img/icon/collapse-categories (1).svg"
+                width="16px"
+                alt=""
+              />
+              <span> دسته‌ها </span>
+            </div>
+            <!-- ----------    ثبت آگهی  ---------- -->
+            <div class="nav-footer">
+              <img src="./img/icon/feed-plus-16.svg" alt="" />
+              <span> ثبت آگهی </span>
+            </div>
+            <!-- ---------- چت  --------- -->
+            <div class="nav-footer">
+              <img src="./img/icon/chat-fill.svg" alt="" />
+              <span> چت </span>
+            </div>
+            <!-- ---------- دیوار من ---------- -->
+            <div class="nav-footer">
+              <img src="./img/icon/round-person.svg" alt="" />
+              <span> دیوار من </span>
+            </div>
+          </nav>
+   
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
